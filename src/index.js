@@ -1,7 +1,7 @@
 const Lib = function () {}
 
-Lib.prototype.do = function () {
-  console.log('did stuff')
+Lib.prototype.test = function () {
+  return 'Hello world'
 }
 
 export default Lib
